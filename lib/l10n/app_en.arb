@@ -1,0 +1,178 @@
+{
+    "language": "English",
+    "@language": {
+        "description": "The current language"
+    },
+    "welcomeback" :"Welcome back!",
+    "@welcome back": {
+        "description": "The current language"
+    }, 
+    "username" :"username",
+    "@username": {
+        "description": "The current language"
+    }, 
+    "password" :"Password",
+    "@password": {
+        "description": "The current language"
+    }, 
+    "dont" :"Dont't have an account?",
+    "@dont": {
+        "description": "The current language"
+    }, 
+    "register" :"Register",
+    "@register": {
+        "description": "The current language"
+    }, 
+    "signIn" :"Sign In",
+    "@sign In": {
+        "description": "The current language"
+    }, 
+    "contactUs" :"Contact Us",
+    "@contact Us": {
+        "description": "The current language"
+    }, 
+    "instagram" :"Instagram",
+    "@instagram": {
+        "description": "The current language"
+    }, 
+    "facebook" :"Facebook",
+    "@facebook": {
+        "description": "The current language"
+    }, 
+    "twitter" :"Twitter",
+    "@twitter": {
+        "description": "The current language"
+    }, 
+    "tikTok" :"TikTok",
+    "@tikTok": {
+        "description": "The current language"
+    }, 
+    "whatsApp" :"WhatsApp",
+    "@whatsApp": {
+        "description": "The current language"
+    }, 
+    "email" :"Email",
+    "@email": {
+        "description": "The current language"
+    }, 
+    "reportPreview" :"Report Preview",
+    "@reportPreview": {
+        "description": "The current language"
+    }, 
+    "home" :"Home",
+    "@home": {
+        "description": "The current language"
+    }, 
+    "chooseyoursituation" :"Choose your situation",
+    "@chooseyoursituation": {
+        "description": "The current language"
+    }, 
+    "stuckinsand" :"Stuck in sand",
+    "@stuckinsand": {
+        "description": "The current language"
+    }, 
+    "drowning" :"Drowning",
+    "@drowning": {
+        "description": "The current language"
+    }, 
+    "outoffuel" :"Out of fuel",
+    "@outoffuel": {
+        "description": "The current language"
+    }, 
+    "flattire" :"Flat tire",
+    "@flattire": {
+        "description": "The current language"
+    }, 
+    "overturned" :"Overturned",
+    "@overturned": {
+        "description": "The current language"
+    }, 
+    "batterycharging" :"Battery charging",
+    "@batterycharging": {
+        "description": "The current language"
+    }, 
+    "switchtovolunteeraccount" :"Switch to volunteer account?",
+    "@switchtovolunteeraccount": {
+        "description": "The current language"
+    }, 
+    "logout" :"Logout",
+    "@logout": {
+        "description": "The current language"
+    }, 
+    "situation" :"situation",
+    "@situation": {
+        "description": "The current language"
+    }, 
+    "snapshotofsituation" :"snapshot of situation",
+    "@snapshotofsituation": {
+        "description": "The current language"
+    }, 
+    "takeasnapshot" :"Take a snapshot",
+    "@takeasnapshot": {
+        "description": "The current language"
+    }, 
+    "createanewaccount" :"Create a new account to get started",
+    "@createanewaccount": {
+        "description": "The current language"
+    }, 
+    "customer" :"Customer",
+    "@customer": {
+        "description": "The current language"
+    }, 
+    "volunteer" :"Volunteer",
+    "@volunteer": {
+        "description": "The current language"
+    }, 
+    "name" :"Name",
+    "@name": {
+        "description": "The current language"
+    }, 
+    "phone" :"Phone",
+    "@phone": {
+        "description": "The current language"
+    }, 
+    "equippedcarphoto" :"Equipped car photo",
+    "@equippedcarphoto": {
+        "description": "The current language"
+    }, 
+    "already" :"Already have an account?",
+    "@already": {
+        "description": "The current language"
+    }, 
+    "signin" :"Sign in",
+    "@signin": {
+        "description": "The current language"
+    }, 
+    "submit":"Submit",
+    "@submit": {
+        "description": "The current language"
+    },
+    "emergency": "New Emergency",
+    "@emergency": {
+        "description": "The current language"
+    },
+    "waiting": "Waiting",
+    "@waiting": {
+        "description": "The current language"
+    },
+    "accepted": "Accepted",
+    "@accepted": {
+        "description": "The current language"
+    },
+    "newphone": "New phone",
+    "@newphone": {
+        "description": "The current language"
+    },
+    "confirmch": "Confirm changes",
+    "@confirmch": {
+        "description": "The current language"
+    },
+    "deleteacc": "Delete Account",
+    "@deleteacc": {
+        "description": "The current language"
+    },
+    "profile": "Profile",
+    "@profile": {
+        "description": "The current language"
+    }
+}

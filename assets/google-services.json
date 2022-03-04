@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "458385955417",
+    "project_id": "rpmqa-ca460",
+    "storage_bucket": "rpmqa-ca460.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458385955417:android:0b9deaadf3aca36bf9af48",
+        "android_client_info": {
+          "package_name": "com.bigtheta.rpmqa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458385955417-advg0l8koij0cnjrqnrv6kbm3s2rkg1v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT2GLE3Nw6-f_qfZ0ruvJuZJBxbLDOgIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458385955417-advg0l8koij0cnjrqnrv6kbm3s2rkg1v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

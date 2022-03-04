@@ -1,0 +1,65 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_login_register_ui/screens/register_page.dart';
+import 'package:flutter_login_register_ui/widgets/widget.dart';
+import '../constants.dart';
+
+class MyPasswordField extends StatelessWidget {
+  MyPasswordField({
+    Key key,
+    @required this.isPasswordVisible,
+    @required this.onTap,
+    @required this.onChanged,
+  }) : super(key: key);
+
+  final bool isPasswordVisible;
+  final Function onTap;
+  String value;
+  StringWrapper onChanged;
+  
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 10),
+      child: TextField(
+        style: kBodyText.copyWith(
+          color: Colors.white,
+        ),
+        obscureText: isPasswordVisible,
+        keyboardType: TextInputType.text,
+        textInputAction: TextInputAction.done,
+        decoration: InputDecoration(
+          suffixIcon: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 8.0),
+            child: IconButton(
+              splashColor: Colors.transparent,
+              highlightColor: Colors.transparent,
+              onPressed: onTap,
+              icon: Icon(
+                isPasswordVisible ? Icons.visibility : Icons.visibility_off,
+                color: Colors.grey,
+              ),
+            ),
+          ),
+          contentPadding: EdgeInsets.all(20),
+          hintText: AppLocalizations.of(context).password,
+          hintStyle: kBodyText,
+          enabledBorder: OutlineInputBorder(
+            borderSide: BorderSide(
+              color: Colors.grey,
+              width: 1,
+            ),
+            borderRadius: BorderRadius.circular(18),
+          ),
+          focusedBorder: OutlineInputBorder(
+            borderSide: BorderSide(
+              color: Colors.white,
+              width: 1,
+            ),
+            borderRadius: BorderRadius.circular(18),
+          ),
+        ),
+        onChanged: (v) => this.onChanged.value = v,
+      ),
+    );
+  }
+}
