@@ -138,10 +138,10 @@ class _RegisterPageState extends State<RegisterPage> {
                         print(customer);
                         Api api = Api();
                         existant = await api.checkUser(username.value);
-                        if(phone.value.length == 8 && password.value.length >= 6 && !existant){
-                          register(api);
+                        if(phone.value.length == 12 && password.value.length >= 6 && !existant){
+                          verifyPhone(api);
                         } else {
-                          if(phone.value.length != 8)
+                          if(phone.value.length != 12)
                           setState(() {
                             phoneLength = true;
                           });
