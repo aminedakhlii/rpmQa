@@ -5,18 +5,22 @@ import 'package:flutter_login_register_ui/constants.dart';
 import 'package:flutter_login_register_ui/screens/register_page.dart';
 import 'package:flutter_login_register_ui/widgets/my_text_field.dart';
 import 'package:flutter_login_register_ui/widgets/widget.dart';
+import 'package:provider/provider.dart';
+
+import '../api/api.dart';
+import '../api/auth_service.dart';
 
 class Verification extends StatefulWidget {
-  String id;
+  String id, image;
   bool change = false;
   Verification({this.id});
   @override
   State<StatefulWidget> createState() => VerifState(); 
-  
 }
 
 class VerifState extends State<Verification> {
   StringWrapper code = StringWrapper(); 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

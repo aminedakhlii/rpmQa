@@ -316,7 +316,7 @@ class _RegisterPageState extends State<RegisterPage> {
           context,
           CupertinoPageRoute(
           builder: (context) => Verification(id: verificationId,),
-        ));
+        )).then((value) => register(api));
       },
       codeAutoRetrievalTimeout: (String verificationId) {
         print('timeout');
@@ -326,6 +326,7 @@ class _RegisterPageState extends State<RegisterPage> {
 
   register(api) {
     if(customer) {
+      print('ws');
       context.read<AuthService>().signUp(username.value + "@rpm.qa", password.value).then((value) => 
         api.customerSignUp(username.value, phone.value).then((value) => 
         Api.mode = modes.CUSTIOMER)
@@ -335,6 +336,7 @@ class _RegisterPageState extends State<RegisterPage> {
         ));
     }
     else {
+      print('vol');
       context.read<AuthService>().signUp(username.value + "@rpm.qa", password.value).then((value) => 
         api.volunteerSignUp(username.value, phone.value, image).then((value) => 
         Api.mode = modes.VOLUNTEER)

@@ -22,6 +22,7 @@ class CustomerHome extends StatefulWidget {
 
 class _CustomerHomeState extends State<CustomerHome> {
   Api api = Api();
+  AuthService as = AuthService();
 
   @override
   Widget build(BuildContext context){
@@ -52,6 +53,21 @@ class _CustomerHomeState extends State<CustomerHome> {
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
+                    Container(
+                    width: 150,
+                    child: MyTextButton(
+                        buttonName: AppLocalizations.of(context).logout,
+                        onTap: () async {
+                          context.read<AuthService>().signOut().then((value) => 
+                            Navigator.popUntil(
+                              context, 
+                              ModalRoute.withName("/")
+                            ));
+                        },
+                        bgColor: Colors.white,
+                        textColor: Colors.black87,
+                      ),
+                  ),
                     Flexible(
                       fit: FlexFit.tight,
                       child: FutureWidget(

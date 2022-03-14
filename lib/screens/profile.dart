@@ -108,7 +108,7 @@ class _ProfileState extends State<Profile> {
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
                       Container(
-                        width: 320,
+                        width: 300,
                         child: MyTextField(
                           hintText: AppLocalizations.of(context).newphone,
                           inputType: TextInputType.phone,
@@ -122,7 +122,7 @@ class _ProfileState extends State<Profile> {
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
                       Container(
-                        width: 320,
+                        width: 300,
                         child: MyPasswordField(
                           isPasswordVisible: passwordVisibility,
                           onTap: () {
